@@ -1,0 +1,29 @@
+h1. rah_updater
+
+p. "Packagist":https://packagist.org/packages/rah/rah_updater | "GitHub":https://github.com/gocom/rah_updater | "Twitter":http://twitter.com/gocom | "Donate":http://rahforum.biz/donate/rah_updater
+
+p. Rah_updater is a plugin for "Textpattern CMS":http:://textpattern.com. It providers a database path updating interface. It can be used to in deployment process to execute database structure updates, and handle your internal application changes.
+
+p. The plugin can run a update files from a specified directory and additionally offers an API for executing custom set of callbacks. The update files itself are individual PHP files. The files names are expected to represent valid version numbers, and are executed in a natural order. Each update file and callback is expected to return a boolean, representing whether the update was an success or not. If FALSE, the update process is terminated, and continued from the failed update when the updater is executed again. The update scripts and callbacks can contain any PHP code you desire.
+
+p. This plugin offers a public callback URL hook that can be used to invoke the updater, and some options in the preferences panel for configuring it.
+
+h2. Installing
+
+p. Using "Composer":http//getcomposer.org:
+
+bc. $ composer.phar require rah/rah_updater
+
+h2. Toolshed notice
+
+p. This is a toolshed project. Experimental and not part of the main supported product line of Rah. Not yet at least. Please use at your own risk.
+
+h2. Requirements
+
+* Textpattern 4.6-dev or newer.
+
+h2. Changelog
+
+h3. Version 0.1.0 - upcoming
+
+* Initial release.

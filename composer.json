@@ -1,0 +1,23 @@
+{
+	"name": "rah/rah_updater",
+	"description": "Patch update handler for Textpattern CMS",
+	"keywords": ["textpattern", "plugin", "updater"],
+	"homepage": "https://github.com/gocom/rah_updater",
+	"license": "GPL-2.0",
+	"type": "textpattern-plugin",
+	"authors": [
+		{
+			"name": "Jukka Svahn",
+			"homepage": "http://rahforum.biz",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/gocom/rah_updater/issues",
+		"source": "https://github.com/gocom/rah_updater"
+	},
+	"require": {
+		"textpattern/lock": ">=4.6.0,4.6@dev",
+		"textpattern/installer": "*"
+	}
+}

@@ -17,7 +17,7 @@
 		"source": "https://github.com/gocom/rah_updater"
 	},
 	"require": {
-		"textpattern/lock": ">=4.6.0,4.6@dev",
+		"textpattern/lock": ">=4.6.0,4.6.*@dev",
 		"textpattern/installer": "*"
 	}
 }
